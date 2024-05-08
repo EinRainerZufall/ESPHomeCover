@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ESPHome Cover PCB")
-		(date "2024-05-07")
+		(date "2024-05-08")
 		(rev "1")
 	)
 	(lib_symbols
@@ -2025,7 +2025,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Prog Header_0_1"
+			(symbol "Prog Header_1_1"
 				(rectangle
 					(start 0 1.27)
 					(end 5.08 -13.97)
@@ -2034,12 +2034,10 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "Prog Header_1_1"
-				(pin power_in line
+				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
 					(name "GND"
@@ -2075,7 +2073,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -2.54 -5.08 0)
 					(length 2.54)
 					(name "VCC"
@@ -2485,6 +2483,10 @@
 	(no_connect
 		(at 127 129.54)
 		(uuid "a8d5c19d-c516-4a53-a74c-4832bdbf2935")
+	)
+	(no_connect
+		(at 165.1 76.2)
+		(uuid "b9d91065-438b-409d-9d25-f747f7eddc0a")
 	)
 	(wire
 		(pts
@@ -3129,7 +3131,7 @@
 		)
 		(uuid "e45bc90f-77e3-441f-aad5-9da83fe531db")
 	)
-	(label "SCL"
+	(label "I2C_SCL"
 		(at 194.31 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3161,17 +3163,6 @@
 			(justify right bottom)
 		)
 		(uuid "062a5135-d0d9-48bf-8958-fc4373dda3e4")
-	)
-	(label "fault_motor"
-		(at 165.1 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c2cf46a-73b4-4e01-8e4c-3a27a11b00f4")
 	)
 	(label "sen_down"
 		(at 45.72 49.53 180)
@@ -3206,7 +3197,7 @@
 		)
 		(uuid "1fce2a4f-65f3-4718-a635-6467ea102d89")
 	)
-	(label "MISO"
+	(label "SPI_MISO"
 		(at 194.31 132.08 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3228,7 +3219,7 @@
 		)
 		(uuid "2b7ba7c2-3fc5-4ca3-9b46-0725c193cdcf")
 	)
-	(label "SCL"
+	(label "I2C_SCL"
 		(at 165.1 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3239,7 +3230,7 @@
 		)
 		(uuid "352c280b-faeb-4b92-8d05-5b0962a725a1")
 	)
-	(label "MISO"
+	(label "SPI_MISO"
 		(at 165.1 88.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3250,7 +3241,7 @@
 		)
 		(uuid "3e0ac055-451a-4163-8e69-8561c2bfbe9d")
 	)
-	(label "SDA"
+	(label "I2C_SDA"
 		(at 165.1 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3261,7 +3252,7 @@
 		)
 		(uuid "3e0db797-1725-4cdf-8f1d-54c52c9c7f4c")
 	)
-	(label "MOSI"
+	(label "SPI_MOSI"
 		(at 194.31 129.54 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3283,7 +3274,7 @@
 		)
 		(uuid "47483986-b5e5-4b4d-9021-13c7d3a31d59")
 	)
-	(label "CS"
+	(label "SPI_CS"
 		(at 194.31 137.16 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3327,7 +3318,7 @@
 		)
 		(uuid "634914f0-bf89-4656-a932-c20a624e212a")
 	)
-	(label "CLK"
+	(label "SPI_CLK"
 		(at 165.1 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3371,7 +3362,7 @@
 		)
 		(uuid "9197cb47-bc29-473a-9d4a-579f77620900")
 	)
-	(label "MOSI"
+	(label "SPI_MOSI"
 		(at 165.1 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3448,7 +3439,7 @@
 		)
 		(uuid "aebea191-fe6b-4d7f-b940-f10851893706")
 	)
-	(label "CLK"
+	(label "SPI_CLK"
 		(at 194.31 134.62 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3470,7 +3461,7 @@
 		)
 		(uuid "bfb7c2d6-e485-4b0d-9ceb-550da4f27a6a")
 	)
-	(label "CS"
+	(label "SPI_CS"
 		(at 165.1 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3514,7 +3505,7 @@
 		)
 		(uuid "eac878cf-92d8-4793-a277-0a06ff07fe7d")
 	)
-	(label "SDA"
+	(label "I2C_SDA"
 		(at 194.31 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3662,7 +3653,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF 6.3V"
 			(at 107.95 94.742 90)
 			(effects
 				(font
@@ -3670,7 +3661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 111.76 89.8652 0)
 			(effects
 				(font
@@ -3689,6 +3680,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1854118"
 			(at 107.95 88.9 0)
 			(effects
 				(font
@@ -3730,14 +3730,14 @@
 			)
 		)
 		(property "Value" "5 MΩ ~ 10 MΩ"
-			(at 102.87 103.124 0)
+			(at 101.6 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.758 101.6 90)
 			(effects
 				(font
@@ -3797,7 +3797,7 @@
 				)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "12.5pF"
 			(at 81.28 91.44 90)
 			(effects
 				(font
@@ -3805,7 +3805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 85.09 95.5548 0)
 			(effects
 				(font
@@ -3987,10 +3987,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3a52142a-3172-4723-a490-500439f84517")
-		(property "Reference" "X3"
+		(property "Reference" "J3"
 			(at 214.63 113.0299 0)
 			(effects
 				(font
@@ -4008,7 +4008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 212.09 113.03 0)
 			(effects
 				(font
@@ -4050,7 +4050,7 @@
 		(instances
 			(project "ESPHomeCover"
 				(path "/457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0/2f92e6c9-6e60-48cc-a739-61ad77952530"
-					(reference "X3")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4294,7 +4294,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF 6.3V"
 			(at 119.38 73.6599 0)
 			(effects
 				(font
@@ -4303,7 +4303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 116.5352 76.2 0)
 			(effects
 				(font
@@ -4322,6 +4322,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1854118"
 			(at 115.57 72.39 0)
 			(effects
 				(font
@@ -4364,7 +4373,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Prog Header"
 			(at 215.9 96.52 0)
 			(effects
 				(font
@@ -4577,7 +4586,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 181.61 84.074 90)
 			(effects
 				(font
@@ -4585,7 +4594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 181.61 80.518 90)
 			(effects
 				(font
@@ -4604,6 +4613,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 181.61 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 181.61 78.74 0)
 			(effects
 				(font
@@ -4646,7 +4664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22uF 6.3V"
 			(at 106.68 73.6599 0)
 			(effects
 				(font
@@ -4655,7 +4673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 103.8352 76.2 0)
 			(effects
 				(font
@@ -4674,6 +4692,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77071"
 			(at 102.87 72.39 0)
 			(effects
 				(font
@@ -4905,10 +4932,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9ffb19f9-f129-46eb-a9e9-28f7f93fa448")
-		(property "Reference" "X4"
+		(property "Reference" "J4"
 			(at 214.63 129.5399 0)
 			(effects
 				(font
@@ -4926,7 +4953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 212.09 129.54 0)
 			(effects
 				(font
@@ -4974,7 +5001,7 @@
 		(instances
 			(project "ESPHomeCover"
 				(path "/457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0/2f92e6c9-6e60-48cc-a739-61ad77952530"
-					(reference "X4")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5064,7 +5091,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF 6.3V"
 			(at 239.776 59.69 90)
 			(effects
 				(font
@@ -5072,7 +5099,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 236.22 54.3052 0)
 			(effects
 				(font
@@ -5091,6 +5118,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 240.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1854118"
 			(at 240.03 53.34 0)
 			(effects
 				(font
@@ -5272,7 +5308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 107.95 80.518 90)
 			(effects
 				(font
@@ -5291,6 +5327,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -5891,7 +5936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
 			(at 87.63 101.6 0)
 			(effects
 				(font
@@ -5911,6 +5956,15 @@
 		)
 		(property "Description" "Two pin crystal, small symbol"
 			(at 87.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5366544"
+			(at 87.63 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6218,7 +6272,7 @@
 				)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "12.5pF"
 			(at 81.28 113.03 90)
 			(effects
 				(font
@@ -6226,7 +6280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 85.09 105.7148 0)
 			(effects
 				(font

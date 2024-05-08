@@ -6,22 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "ESPHome Cover PCB")
-		(date "2024-05-07")
+		(date "2024-05-08")
 		(rev "1")
 	)
 	(lib_symbols)
-	(no_connect
-		(at 166.37 73.66)
-		(uuid "030a63f4-5f7c-4266-80aa-2783e1901d9d")
-	)
-	(no_connect
-		(at 166.37 66.04)
-		(uuid "b06b7cde-dc66-4adb-9cc0-e94832bad395")
-	)
-	(no_connect
-		(at 166.37 69.85)
-		(uuid "d2905788-ad4f-4cbb-915a-0abb8a1cda67")
-	)
 	(wire
 		(pts
 			(xy 132.08 60.96) (xy 113.03 60.96)
@@ -154,6 +142,26 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 73.66) (xy 208.28 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3d0d12-09fb-4863-9e47-3114edc791bd")
+	)
+	(wire
+		(pts
+			(xy 166.37 66.04) (xy 208.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e297ff2-853f-4134-9783-92cd94401a13")
+	)
+	(wire
+		(pts
 			(xy 120.65 68.58) (xy 120.65 128.27)
 		)
 		(stroke
@@ -171,6 +179,16 @@
 			(type default)
 		)
 		(uuid "8b5d8bbf-7db6-45a3-9a6d-47cfe8987854")
+	)
+	(wire
+		(pts
+			(xy 166.37 69.85) (xy 208.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972dc1c1-4e9c-4fb7-8b13-bedd87f858d8")
 	)
 	(wire
 		(pts
@@ -389,6 +407,36 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "sen_up" output
+			(at 208.28 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c9f1ba1-3bc1-412f-a595-c8208e659a8e")
+		)
+		(pin "sen_down" output
+			(at 208.28 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f7f73278-537a-46c6-b551-5f6624a17da8")
+		)
+		(pin "sen_win" output
+			(at 208.28 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "97840321-d806-4b97-bf80-030a71ed6a6a")
 		)
 		(instances
 			(project "ESPHomeCover"
