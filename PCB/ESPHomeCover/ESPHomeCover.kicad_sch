@@ -1,0 +1,562 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0")
+	(paper "A4")
+	(title_block
+		(title "ESPHome Cover PCB")
+		(date "2024-05-07")
+		(rev "1")
+	)
+	(lib_symbols)
+	(no_connect
+		(at 166.37 73.66)
+		(uuid "030a63f4-5f7c-4266-80aa-2783e1901d9d")
+	)
+	(no_connect
+		(at 166.37 66.04)
+		(uuid "b06b7cde-dc66-4adb-9cc0-e94832bad395")
+	)
+	(no_connect
+		(at 166.37 69.85)
+		(uuid "d2905788-ad4f-4cbb-915a-0abb8a1cda67")
+	)
+	(wire
+		(pts
+			(xy 132.08 60.96) (xy 113.03 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061dca67-9f17-4279-8005-6835e854dd37")
+	)
+	(wire
+		(pts
+			(xy 125.73 133.35) (xy 80.01 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de44ba2-c1b1-4103-aae6-2c316cf96869")
+	)
+	(wire
+		(pts
+			(xy 118.11 66.04) (xy 118.11 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16f98873-5b9b-4d51-8f71-ff852f4a01dc")
+	)
+	(wire
+		(pts
+			(xy 113.03 60.96) (xy 113.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c0b1861-843f-429a-b8ed-11054c344bab")
+	)
+	(wire
+		(pts
+			(xy 118.11 125.73) (xy 80.01 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a09cd5-534d-4cfa-8e0c-43c6331e5b12")
+	)
+	(wire
+		(pts
+			(xy 132.08 68.58) (xy 120.65 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c49b7f-af5f-4e61-a575-138ef699ad15")
+	)
+	(wire
+		(pts
+			(xy 132.08 63.5) (xy 115.57 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26cf4c31-0bf7-445b-aae3-fba8aa71fae0")
+	)
+	(wire
+		(pts
+			(xy 123.19 130.81) (xy 80.01 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "448e570b-c4af-4752-95b0-78c486b40a90")
+	)
+	(wire
+		(pts
+			(xy 113.03 120.65) (xy 80.01 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "501056c9-d4fa-4fbc-ab45-b8444d91e5af")
+	)
+	(wire
+		(pts
+			(xy 115.57 63.5) (xy 115.57 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50272212-f45f-4e9b-8d8f-643bef3667ea")
+	)
+	(wire
+		(pts
+			(xy 82.55 73.66) (xy 82.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a5b065-352b-4d24-bf79-d1c27503eb99")
+	)
+	(wire
+		(pts
+			(xy 132.08 66.04) (xy 118.11 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc42b23-de13-4da3-985b-525492831658")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 125.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c387a47-4bcf-435c-a8a2-20f3bb3f0bf2")
+	)
+	(wire
+		(pts
+			(xy 120.65 68.58) (xy 120.65 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7940e6e3-6a56-496e-afee-bdbb5e62d277")
+	)
+	(wire
+		(pts
+			(xy 120.65 128.27) (xy 80.01 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5d8bbf-7db6-45a3-9a6d-47cfe8987854")
+	)
+	(wire
+		(pts
+			(xy 115.57 123.19) (xy 80.01 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3420fc-e4cd-4ef1-85c0-0f8d862cebf0")
+	)
+	(wire
+		(pts
+			(xy 80.01 73.66) (xy 82.55 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0beaadb-9af6-41a1-b1e4-a4b4b5861165")
+	)
+	(wire
+		(pts
+			(xy 82.55 106.68) (xy 80.01 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce9f7c1c-6871-4a73-89c1-8816f1a0c485")
+	)
+	(wire
+		(pts
+			(xy 132.08 71.12) (xy 123.19 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0d097e-ff0a-4ee6-a494-0117947089b3")
+	)
+	(wire
+		(pts
+			(xy 123.19 71.12) (xy 123.19 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29bb6ab-d764-49f7-ab5b-c1158cfd6c72")
+	)
+	(wire
+		(pts
+			(xy 125.73 73.66) (xy 125.73 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c4d3e7-9a57-400c-865d-8cc8d2c69db1")
+	)
+	(sheet
+		(at 132.08 44.45)
+		(size 34.29 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f92e6c9-6e60-48cc-a739-61ad77952530")
+		(property "Sheetname" "MCU"
+			(at 132.08 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 132.08 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "brake_relay" output
+			(at 132.08 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "87914ba4-ef43-4c6d-8f6a-70d36444e1fd")
+		)
+		(pin "sen_up" input
+			(at 166.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "20f49883-bde6-4c8c-9218-8ef8f9eddd22")
+		)
+		(pin "sen_win" input
+			(at 166.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "754e696e-5dcf-4dc1-a29b-2f104c3c5941")
+		)
+		(pin "sen_down" input
+			(at 166.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1811304e-2d84-4f63-b180-032198867cff")
+		)
+		(pin "vref_motor" output
+			(at 132.08 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6244fea6-bca1-4c29-830f-5ae6c87ff441")
+		)
+		(pin "fault_motor" input
+			(at 132.08 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "907b3a2b-650a-43e5-9e9a-e95d7eaa261f")
+		)
+		(pin "sleep_motor" output
+			(at 132.08 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f04f0f65-e14b-4568-987c-2cc98f4986f7")
+		)
+		(pin "dir_motor" output
+			(at 132.08 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "92f26514-0771-4f74-8aad-7b977ec3a1cf")
+		)
+		(pin "step_motor" output
+			(at 132.08 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "badf55a1-41eb-4732-9830-7e82809e3067")
+		)
+		(instances
+			(project "ESPHomeCover"
+				(path "/457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 44.45)
+		(size 34.29 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3fc3ccdb-dafc-44ec-a0c7-15ad71430743")
+		(property "Sheetname" "Sensors"
+			(at 208.28 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 208.28 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESPHomeCover"
+				(path "/457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 104.14)
+		(size 34.29 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba731c15-d691-4401-90d0-2f66281d5c9f")
+		(property "Sheetname" "Motor driver"
+			(at 45.72 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_driver.kicad_sch"
+			(at 45.72 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+24V" input
+			(at 80.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ccf2f0dd-b8c9-4ac0-bcd2-8bff9c59e60b")
+		)
+		(pin "brake_relay" input
+			(at 80.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ad76ade3-3954-4efe-916c-ab8a185e1c15")
+		)
+		(pin "vref_motor" input
+			(at 80.01 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "11eff298-6cb2-4bbd-a713-e8fbb215c7c0")
+		)
+		(pin "fault_motor" output
+			(at 80.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4de9f296-36c3-4418-a564-88031f5f164d")
+		)
+		(pin "dir_motor" input
+			(at 80.01 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cefa37ea-3e43-43f8-b492-3f97ea8fb759")
+		)
+		(pin "sleep_motor" input
+			(at 80.01 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "03f37ad0-0dd7-4f30-bc33-982652bf7fb6")
+		)
+		(pin "step_motor" input
+			(at 80.01 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d959377f-1ba6-4cc8-99ab-96d4a7cffe6e")
+		)
+		(instances
+			(project "ESPHomeCover"
+				(path "/457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 44.45)
+		(size 34.29 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cc9b4c15-a579-4ee5-af3d-efec83662286")
+		(property "Sheetname" "Power"
+			(at 45.72 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 45.72 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+24V" output
+			(at 80.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "004a2a82-0938-4cf5-bae9-9e4977ed5a18")
+		)
+		(instances
+			(project "ESPHomeCover"
+				(path "/457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

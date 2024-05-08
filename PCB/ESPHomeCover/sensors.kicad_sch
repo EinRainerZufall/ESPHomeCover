@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8be4c313-4464-407b-9108-9bd9e5b686f7")
+	(paper "A4")
+	(title_block
+		(title "ESPHome Cover PCB")
+		(date "2024-05-07")
+		(rev "1")
+	)
+	(lib_symbols)
+)
