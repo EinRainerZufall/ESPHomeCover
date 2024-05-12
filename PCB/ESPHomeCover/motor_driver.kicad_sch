@@ -6,8 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "ESPHome Cover PCB")
-		(date "2024-05-08")
-		(rev "1")
+		(date "2024-05-12")
+		(rev "2")
+		(company "Tim")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
@@ -3859,7 +3860,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 124.1552 72.39 0)
 			(effects
 				(font
@@ -3886,7 +3887,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C113853"
+		(property "LCSC" ""
+			(at 123.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 123.19 68.58 0)
 			(effects
 				(font
@@ -4161,6 +4171,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 102.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bccd440a-dae4-4ddf-aa34-08d456749cd0")
 		)
@@ -4209,7 +4228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.6052 110.49 0)
 			(effects
 				(font
@@ -4236,7 +4255,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3869051"
+		(property "LCSC" "C309479"
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 167.64 106.68 0)
 			(effects
 				(font
@@ -4383,6 +4411,15 @@
 			)
 		)
 		(property "LCSC" "C780061"
+			(at 231.14 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 231.14 41.91 0)
 			(effects
 				(font
@@ -4923,6 +4960,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 129.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "21"
 			(uuid "8ca8188d-d474-4fae-8b7d-93754bd49aeb")
 		)
@@ -5149,6 +5195,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 257.81 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7d12c90c-eb4f-4a45-aa27-828b5e11d403")
 		)
@@ -5296,6 +5351,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14dcd315-fd0c-4d9d-b62c-5974e6c8fb96")
 		)
@@ -5434,6 +5498,15 @@
 		)
 		(property "LCSC" "C72478"
 			(at 118.11 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 118.11 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,6 +5715,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 35.56 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa7e36f7-8b81-43d1-8c61-75355944a269")
 		)
@@ -5807,6 +5889,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 74.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "757acca2-2ffe-4ff6-8f75-55060dd91d86")
 		)
@@ -5847,7 +5938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.03 71.4248 0)
 			(effects
 				(font
@@ -5874,7 +5965,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1518210"
+		(property "LCSC" ""
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 109.22 72.39 0)
 			(effects
 				(font
@@ -5960,6 +6060,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 107.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "874e307c-f24b-49a4-a2bc-4493234c907b")
 		)
@@ -6028,6 +6137,15 @@
 			)
 		)
 		(property "LCSC" "C17455"
+			(at 196.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 196.85 69.85 0)
 			(effects
 				(font
@@ -6178,6 +6296,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d1a472bd-e9ac-46db-abda-7c761782ac2f")
 		)
@@ -6287,7 +6414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.6852 72.39 0)
 			(effects
 				(font
@@ -6314,7 +6441,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107147"
+		(property "LCSC" "C77571"
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 172.72 68.58 0)
 			(effects
 				(font
@@ -6382,6 +6518,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 85.09 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 85.09 186.69 0)
 			(effects
 				(font
@@ -6466,6 +6611,15 @@
 		)
 		(property "LCSC" "C151058"
 			(at 100.33 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 100.33 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,6 +6835,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 59.69 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "0ff8eb1e-f6f7-417e-9115-871a13e65dde")
 		)
@@ -6739,7 +6902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.03 99.3648 0)
 			(effects
 				(font
@@ -6766,7 +6929,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1518210"
+		(property "LCSC" ""
+			(at 109.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
 			(at 109.22 100.33 0)
 			(effects
 				(font
