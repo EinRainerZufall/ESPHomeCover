@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ESPHome Cover PCB")
-		(date "2024-05-12")
+		(date "2024-05-27")
 		(rev "1")
 		(company "Tim")
 	)
@@ -2532,10 +2532,6 @@
 		(uuid "f9737b1a-42c2-42dd-97b5-8720ea017e0d")
 	)
 	(no_connect
-		(at 127 132.08)
-		(uuid "2e3cd7eb-03ec-497a-aab7-b7dd4a048d83")
-	)
-	(no_connect
 		(at 127 81.28)
 		(uuid "467cd522-9299-40c6-8d5b-04f22f10c288")
 	)
@@ -3713,6 +3709,73 @@
 			(justify right)
 		)
 		(uuid "f9982536-226f-49f2-97a3-3f543bc79097")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "032aec76-f58a-4c43-aa2c-000864bd4506")
+		(property "Reference" "#PWR062"
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7c1613d-f6c6-495f-9d92-a59c1f909555")
+		)
+		(instances
+			(project "ESPHomeCover"
+				(path "/457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0/2f92e6c9-6e60-48cc-a739-61ad77952530"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
