@@ -8,6 +8,7 @@
 		(title "ESPHome Cover PCB")
 		(date "2024-05-12")
 		(rev "1")
+		(company "Tim")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
