@@ -7,7 +7,7 @@
 	(title_block
 		(title "ESPHome Cover PCB")
 		(date "2024-05-12")
-		(rev "2")
+		(rev "1")
 		(company "Tim")
 	)
 	(lib_symbols
@@ -704,6 +704,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Small_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_1"
+				(arc
+					(start 0.762 1.0196)
+					(mid 0 1.2729)
+					(end -0.762 1.0196)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:AP63203WU-7"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1154,12 +1299,6 @@
 		)
 	)
 	(junction
-		(at 201.93 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1022a025-7bcb-4cc7-94ed-baf07065c3ee")
-	)
-	(junction
 		(at 134.62 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1176,6 +1315,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70fa3383-23eb-4585-b204-a3e32cac85d3")
+	)
+	(junction
+		(at 201.93 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c1fe872-e0c6-4fa9-8d2d-5f5b921499c4")
 	)
 	(junction
 		(at 118.11 86.36)
@@ -1227,6 +1372,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 161.29) (xy 146.05 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c63c7a2-12c9-488e-a4b0-67f96195d674")
+	)
+	(wire
+		(pts
 			(xy 180.34 86.36) (xy 179.07 86.36)
 		)
 		(stroke
@@ -1234,16 +1389,6 @@
 			(type default)
 		)
 		(uuid "4423ee62-cad1-45d8-a151-0780839459fe")
-	)
-	(wire
-		(pts
-			(xy 201.93 81.28) (xy 201.93 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45cda476-7ef8-4820-9256-cbdeddddda0c")
 	)
 	(wire
 		(pts
@@ -1407,6 +1552,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 85.09) (xy 201.93 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c68a445e-39e2-4332-8acb-9b3f05063ab8")
+	)
+	(wire
+		(pts
 			(xy 160.02 86.36) (xy 161.29 86.36)
 		)
 		(stroke
@@ -1457,6 +1612,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 161.29) (xy 153.67 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f9ee41-f328-4438-b959-9d4b4c929d97")
+	)
+	(wire
+		(pts
 			(xy 29.21 181.61) (xy 39.37 181.61)
 		)
 		(stroke
@@ -1488,7 +1653,7 @@
 		(uuid 302635c6-4f46-4f5c-8ff2-75f69339c754)
 	)
 	(rectangle
-		(start 133.35 160.02)
+		(start 133.35 154.94)
 		(end 165.1 187.96)
 		(stroke
 			(width 0)
@@ -1512,7 +1677,7 @@
 	)
 	(text "Test points"
 		(exclude_from_sim no)
-		(at 134.112 162.052 0)
+		(at 134.112 156.972 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1671,6 +1836,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "667-EEH-ZK1V101XP"
+			(at 36.83 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "072d7dbd-94b3-4246-9b60-a6a9c3ad8377")
 		)
@@ -1749,6 +1923,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-06036C104JAT2A"
 			(at 165.1 86.36 0)
 			(effects
 				(font
@@ -1837,6 +2020,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 102.87 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188R6YA106MA3J"
 			(at 102.87 90.17 0)
 			(effects
 				(font
@@ -2133,6 +2325,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 148.59 161.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "29b7f226-a6ac-462f-a973-2250f7d9a01a")
+		(property "Reference" "JP3"
+			(at 150.114 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 147.3201 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 148.59 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 148.59 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f073b5ac-0228-45df-93ba-ba41958d80de")
+		)
+		(pin "1"
+			(uuid "036f749d-528f-420e-9a1d-005a5d7449d7")
+		)
+		(instances
+			(project "ESPHomeCover"
+				(path "/457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0/cc9b4c15-a579-4ee5-af3d-efec83662286"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 175.26 86.36 90)
 		(unit 1)
@@ -2195,6 +2457,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 175.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B82432T1472K"
 			(at 175.26 86.36 0)
 			(effects
 				(font
@@ -2364,6 +2635,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "963-MSASJ168BB5226MT"
+			(at 184.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b62ba684-1d35-4f66-b26e-079f2cbca3ef")
 		)
@@ -2389,7 +2669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5718e6ee-13d5-4858-8652-d7b35cc29cce")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 147.32 78.74 0)
 			(effects
 				(font
@@ -2523,7 +2803,7 @@
 		(instances
 			(project "ESPHomeCover"
 				(path "/457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0/cc9b4c15-a579-4ee5-af3d-efec83662286"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2669,6 +2949,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "963-MSASJ168BB5226MT"
+			(at 201.93 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8516b9ea-3c7f-4d7b-947d-0e631d460933")
 		)
@@ -2749,6 +3038,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-GMK107B7104KAHT"
 			(at 118.11 90.17 0)
 			(effects
 				(font
@@ -2971,6 +3269,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 153.67 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "933cb3eb-824b-41d1-ad3a-2a9fd8f025a3")
+		(property "Reference" "#PWR061"
+			(at 149.86 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 157.48 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 153.67 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a91977b-4130-4d7f-947f-2c1c71fff6da")
+		)
+		(instances
+			(project "ESPHomeCover"
+				(path "/457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0/cc9b4c15-a579-4ee5-af3d-efec83662286"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 36.83 158.75 90)
 		(unit 1)
@@ -3034,6 +3399,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 36.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-EEH-ZK1V101XP"
 			(at 36.83 158.75 0)
 			(effects
 				(font
@@ -3131,6 +3505,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 143.51 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7bc10a1-2640-40d3-b671-ea2a9641cf9a")
+		(property "Reference" "#PWR060"
+			(at 147.32 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 139.7 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 143.51 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2947dc49-51d1-4307-b2ac-f7873557fdb5")
+		)
+		(instances
+			(project "ESPHomeCover"
+				(path "/457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0/cc9b4c15-a579-4ee5-af3d-efec83662286"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 24.13 181.61 0)
 		(mirror y)
@@ -3141,7 +3582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9569ee1-7220-4a80-9287-ec330e7056f5")
-		(property "Reference" "J1"
+		(property "Reference" "J7"
 			(at 24.13 175.26 0)
 			(effects
 				(font
@@ -3202,7 +3643,7 @@
 		(instances
 			(project "ESPHomeCover"
 				(path "/457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0/cc9b4c15-a579-4ee5-af3d-efec83662286"
-					(reference "J1")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3407,7 +3848,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 201.93 81.28 0)
+		(at 201.93 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3416,7 +3857,7 @@
 		(fields_autoplaced yes)
 		(uuid "c590e64e-1bf8-4288-999b-e18982f31260")
 		(property "Reference" "#PWR040"
-			(at 201.93 85.09 0)
+			(at 201.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3866,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 201.93 76.2 0)
+			(at 201.93 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,7 +3874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 81.28 0)
+			(at 201.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 81.28 0)
+			(at 201.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,7 +3892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 201.93 81.28 0)
+			(at 201.93 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

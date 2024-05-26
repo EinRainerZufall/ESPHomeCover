@@ -7,7 +7,7 @@
 	(title_block
 		(title "ESPHome Cover PCB")
 		(date "2024-05-12")
-		(rev "2")
+		(rev "1")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
@@ -1107,6 +1107,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "581-06036C104JAT2A"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a0c7779-a594-430e-a6ba-52c8e9e9f7ca")
 		)
@@ -1207,7 +1216,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "sen DOWN"
+		(property "Value" "DOWN"
 			(at 163.83 96.5199 0)
 			(effects
 				(font
@@ -1335,6 +1344,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-06036C104JAT2A"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -1563,6 +1581,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "581-06036C104JAT2A"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0ef0cd1-348d-41cf-9408-270808e6b939")
 		)
@@ -1597,7 +1624,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "sen WIN"
+		(property "Value" "WIN"
 			(at 163.83 115.5699 0)
 			(effects
 				(font
@@ -1745,7 +1772,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "sen UP"
+		(property "Value" "UP"
 			(at 163.83 78.7399 0)
 			(effects
 				(font

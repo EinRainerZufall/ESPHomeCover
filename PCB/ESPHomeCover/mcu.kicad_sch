@@ -7,7 +7,7 @@
 	(title_block
 		(title "ESPHome Cover PCB")
 		(date "2024-05-12")
-		(rev "2")
+		(rev "1")
 		(company "Tim")
 	)
 	(lib_symbols
@@ -2689,7 +2689,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 49.53) (xy 234.95 49.53)
+			(xy 247.65 49.53) (xy 245.11 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2706,6 +2706,26 @@
 			(type default)
 		)
 		(uuid "477e3362-fb10-4de4-a581-c5ccec574494")
+	)
+	(wire
+		(pts
+			(xy 245.11 36.83) (xy 247.65 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48919d4a-7ad8-4bc1-856e-0343c41add6b")
+	)
+	(wire
+		(pts
+			(xy 223.52 36.83) (xy 234.95 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c793ff-5757-452e-a95a-8c8d128250bf")
 	)
 	(wire
 		(pts
@@ -2869,7 +2889,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 49.53) (xy 256.54 49.53)
+			(xy 234.95 49.53) (xy 223.52 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3179,16 +3199,6 @@
 		)
 		(uuid af64ca02-160f-4699-820d-5ddbb715bbf5)
 	)
-	(text "Taster:\nTL3302AF130QG"
-		(exclude_from_sim no)
-		(at 239.776 19.304 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "90d66143-cfb6-4668-8f9e-e718ec8b8102")
-	)
 	(text "Switches"
 		(exclude_from_sim no)
 		(at 222.25 25.908 0)
@@ -3212,13 +3222,13 @@
 		(uuid "009d635d-6618-47d0-ae59-32df72c52d69")
 	)
 	(label "IO0{slash}BOOT"
-		(at 234.95 36.83 180)
+		(at 223.52 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "05738c0d-6b7a-4f35-9e11-f2043b2b58ab")
 	)
@@ -3553,13 +3563,13 @@
 		(uuid "e411fa73-5a2c-4e21-89f2-5d6cbc53b13f")
 	)
 	(label "esp32_en"
-		(at 256.54 49.53 180)
+		(at 223.52 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e9b0e051-cff9-4973-9084-d90a367b3acf")
 	)
@@ -3767,6 +3777,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 107.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-06036C104JAT2A"
 			(at 107.95 88.9 0)
 			(effects
 				(font
@@ -4086,7 +4105,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3a52142a-3172-4723-a490-500439f84517")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 214.63 113.0299 0)
 			(effects
 				(font
@@ -4155,7 +4174,7 @@
 		(instances
 			(project "ESPHomeCover"
 				(path "/457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0/2f92e6c9-6e60-48cc-a739-61ad77952530"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4506,6 +4525,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "581-06036C104JAT2A"
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4fe9bfa3-efe4-47d2-b7f3-6ab2cbdde80c")
 		)
@@ -4526,13 +4554,13 @@
 		(at 209.55 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f0462bd-47f8-4c72-839d-de74ba944cc4")
-		(property "Reference" "X2"
-			(at 215.9 94.6149 0)
+		(property "Reference" "J1"
+			(at 215.9 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4541,7 +4569,7 @@
 			)
 		)
 		(property "Value" "Prog Header"
-			(at 215.9 96.52 0)
+			(at 215.9 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4634,7 @@
 		(instances
 			(project "ESPHomeCover"
 				(path "/457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0/2f92e6c9-6e60-48cc-a739-61ad77952530"
-					(reference "X2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4815,6 +4843,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "667-ERA-6AEB103V"
+			(at 181.61 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bbe81961-4859-41e1-9155-f95944da58e9")
 		)
@@ -4895,6 +4932,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 91.44 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-MSASJ168BB5226MT"
 			(at 91.44 72.39 0)
 			(effects
 				(font
@@ -5129,7 +5175,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9ffb19f9-f129-46eb-a9e9-28f7f93fa448")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 214.63 129.5399 0)
 			(effects
 				(font
@@ -5204,7 +5250,7 @@
 		(instances
 			(project "ESPHomeCover"
 				(path "/457ec9a0-69c6-4fbc-b0c1-e7e1db8d25f0/2f92e6c9-6e60-48cc-a739-61ad77952530"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5347,6 +5393,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "581-06036C104JAT2A"
+			(at 240.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fef2d72f-6b38-432a-a8a1-2119d728ce4e")
 		)
@@ -5364,7 +5419,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 245.11 36.83 90)
+		(at 247.65 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5373,7 +5428,7 @@
 		(fields_autoplaced yes)
 		(uuid "abcc65a8-3a80-4737-9485-44554e7978a8")
 		(property "Reference" "#PWR020"
-			(at 251.46 36.83 0)
+			(at 254 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5437,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 36.8299 90)
+			(at 251.46 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 36.83 0)
+			(at 247.65 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +5455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 36.83 0)
+			(at 247.65 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 36.83 0)
+			(at 247.65 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,6 +5612,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-6AEB103V"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -6143,7 +6207,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 49.53 270)
+		(at 247.65 49.53 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6152,7 +6217,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9474a35-20fa-4790-a60a-08a0a8ba99f5")
 		(property "Reference" "#PWR025"
-			(at 226.06 49.53 0)
+			(at 254 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6226,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 49.5299 90)
+			(at 251.46 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +6235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 49.53 0)
+			(at 247.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +6244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 49.53 0)
+			(at 247.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,7 +6253,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 49.53 0)
+			(at 247.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6488,6 +6553,7 @@
 	(symbol
 		(lib_id "SamacSys_Parts:TL3302AF130QG")
 		(at 240.03 49.53 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6511,7 +6577,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:TL3302AF130QG"
-			(at 259.08 144.45 0)
+			(at 220.98 144.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6521,7 +6587,7 @@
 			)
 		)
 		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/TL3302AF130QG.pdf"
-			(at 259.08 244.45 0)
+			(at 220.98 244.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,7 +6606,7 @@
 			)
 		)
 		(property "Height" "4.55"
-			(at 259.08 444.45 0)
+			(at 220.98 444.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6550,7 +6616,7 @@
 			)
 		)
 		(property "Mouser Part Number" "612-TL3302AF130QG"
-			(at 259.08 544.45 0)
+			(at 220.98 544.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6560,7 +6626,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/E-Switch/TL3302AF130QG?qs=QtyuwXswaQjypAFh0ff2%2FQ%3D%3D"
-			(at 259.08 644.45 0)
+			(at 220.98 644.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,7 +6636,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "E-Switch"
-			(at 259.08 744.45 0)
+			(at 220.98 744.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6580,7 +6646,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TL3302AF130QG"
-			(at 259.08 844.45 0)
+			(at 220.98 844.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
