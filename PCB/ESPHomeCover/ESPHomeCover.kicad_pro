@@ -459,7 +459,9 @@
       "Own_Lib"
     ],
     "pinned_symbol_libs": [
-      "own lib"
+      "own lib",
+      "Part-DB",
+      "Part-DB - Part-DB"
     ]
   },
   "meta": {
